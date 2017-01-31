@@ -1,0 +1,98 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+
+header { 
+	width: 100%;
+	height: 50px;
+	border-style: solid;
+	border-color: #cccccc;
+	background-color: #ffffff;
+	 }
+
+h1 { 
+	background-color: #4aaaa5;
+	padding: 0 auto;
+	height: 50px;
+	width: 200px;
+	margin: 0px 0px 0px 30px;
+	line-height: 50px;
+	}
+
+
+.container {
+	width: 960px;
+	height: 500px;
+	border-style: solid;
+	border-color: #dddddd;
+	background-color: #FAEBD7;
+}
+
+
+#bio {
+	border-style: solid;
+	width: 500px;
+	background-color: #ffffff;
+	margin-left: 30px;
+}
+
+#image {
+	width: 90px;
+	float: left;
+}
+
+#connect {
+	position: absolute;
+	top: 73px;
+	right: 1px;
+	border-style: solid;
+	width: 250px;
+	padding: 0 auto;
+	background-color: #ffffff;
+}
+
+h3 {
+	text-align: center;
+}
+
+#git {
+	width: 40px;
+}
+#link {
+	width: 40px;
+}
+
+#stack {
+	width: 40px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #666666;
+}
+
+.form {
+ 	width: 100%;
+ 	height: 700px;
+	border-style: solid;
+	border-color: #dddddd;
+	background-color: #FAEBD7;
+	 }
+
+#action {
+	border-style: solid;
+	width: 700px;
+	height: 375px;
+	background-color: #ffffff;
+	margin-left: 30px;
+}
+
+
+
+
+
