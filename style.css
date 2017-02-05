@@ -10,6 +10,7 @@ header {
 	border-style: solid;
 	border-color: #cccccc;
 	background-color: #ffffff;
+	
 	 }
 
 h1 { 
@@ -21,10 +22,21 @@ h1 {
 	line-height: 50px;
 	}
 
+.nav {
+    display: inline;
+    float: right;
+    height: 30px;
+    width: 100px;
+    top: 0px;
+
+    
+
+}
+
 
 .container {
-	width: 960px;
-	height: 500px;
+	width: 100%;
+	height: 900px;
 	border-style: solid;
 	border-color: #dddddd;
 	background-color: #FAEBD7;
@@ -34,6 +46,7 @@ h1 {
 #bio {
 	border-style: solid;
 	width: 500px;
+	height: 700px;
 	background-color: #ffffff;
 	margin-left: 30px;
 }
@@ -46,30 +59,25 @@ h1 {
 #connect {
 	position: absolute;
 	top: 73px;
-	right: 1px;
+	right: 100px;
 	border-style: solid;
 	width: 250px;
 	padding: 0 auto;
 	background-color: #ffffff;
+
 }
 
 h3 {
 	text-align: center;
 }
 
-#git {
-	width: 40px;
-}
-#link {
-	width: 40px;
-}
+.git {
+	 width: 50px;
+	 display: inline;
+	}
 
-#stack {
-	width: 40px;
-}
 
 footer {
-	position: absolute;
 	bottom: 0px;
 	width: 100%;
 	text-align: center;
@@ -78,7 +86,7 @@ footer {
 
 .form {
  	width: 100%;
- 	height: 700px;
+ 	height: 900px;
 	border-style: solid;
 	border-color: #dddddd;
 	background-color: #FAEBD7;
@@ -87,12 +95,21 @@ footer {
 #action {
 	border-style: solid;
 	width: 700px;
-	height: 375px;
+	height: 700px;
 	background-color: #ffffff;
 	margin-left: 30px;
+
 }
 
+img { width: 200px; }
 
+.left {	margin-left: 40px;
+	float: left;
 
+}
 
-
+.right {
+	margin-right: 100px;
+	float: right;
+}
+.rock { margin-bottom: 0px; }
